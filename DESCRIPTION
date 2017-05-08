@@ -1,0 +1,12 @@
+Package: arkr
+Type: Package
+Title: ARK API - R
+Version: 0.1.0
+Author: ryano
+Maintainer: ryano <ryano1110@gmail.com>
+Imports:
+  httr
+Description: Functions to make API calls for ARK
+License: Public Domain
+Encoding: UTF-8
+LazyData: true
