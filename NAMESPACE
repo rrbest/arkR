@@ -1,1 +1,3 @@
 exportPattern("^[[:alpha:]]+")
+@importFrom httr content
+@importFrom httr GET
