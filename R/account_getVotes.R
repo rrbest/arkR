@@ -1,3 +1,4 @@
+#' @export
 ark.getVotes <- function(address){
   url <- paste0(options$url, "/api/accounts/delegates/?address=", address)
   content(GET(url = url))
