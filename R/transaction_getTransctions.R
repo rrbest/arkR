@@ -17,4 +17,7 @@ getTransactions <- function(address, type = 'dataframe'){
     return(print("Please include type as 'list' or 'dataframe'"))
   }
 
-} # example: getTransactions("AUexKjGtgsSpVzPLs6jNMM6vJ6znEVTQWK", type="dataframe")
+}
+
+# example:
+#   getTransactions("AUexKjGtgsSpVzPLs6jNMM6vJ6znEVTQWK", type="dataframe")

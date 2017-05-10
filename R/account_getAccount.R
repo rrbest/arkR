@@ -1,7 +1,6 @@
 getAccount <- function(address, type = 'dataframe'){
   url <- paste0(options$url, "/api/accounts?address=", address)
 
-
   if(type == "list"){
     a <- content(GET(url = url))
     return(a)
