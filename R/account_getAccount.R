@@ -17,4 +17,4 @@ getAccount <- function(address, type = 'dataframe'){
     return(print("Please include type as 'list' or 'dataframe'"))
   }
 
-} # example: getAccount("AT2k1MydfeAnuHchJc3Z2EgcQPQoH4s5om", type="dataframe")
+} # example: getAccount("AUexKjGtgsSpVzPLs6jNMM6vJ6znEVTQWK", type="dataframe")
