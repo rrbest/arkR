@@ -1,5 +1,5 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-arkr <img src="https://github.com/rrbest/arkR/blob/master/arkr.png" align="right" />
+<img src="https://github.com/rrbest/arkR/blob/master/arkr.png" align="right" />
 ============================================
 
 Overview
