@@ -6,6 +6,7 @@ Author: ryano
 Maintainer: ryano <ryano1110@gmail.com>
 Imports:
   httr
+  xml2
 Description: Functions to make API calls for ARK
 License: Public Domain
 Encoding: UTF-8
