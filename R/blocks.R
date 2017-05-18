@@ -19,7 +19,7 @@ getBlockchainHeight <- function(){
 }
 
 getForgedByAccount <- function(address){
-  publicKey <- getPublicKey("AG78yF1fZRcj43yTXmePHvHQrsWWDDokNk")
+  publicKey <- getPublicKey(address)
   url <- paste0(options$url, "/api/delegates/forging/getForgedByAccount?generatorPublicKey=", publicKey)
   result <- content(GET(url=url))
   result$fees <- as.numeric(result$fees) / options$scaling
